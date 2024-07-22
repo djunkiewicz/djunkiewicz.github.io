@@ -66,3 +66,11 @@
 #my-projects {
   justify-content: space-between;
 }
+
+.interest-image {
+  flex: 1;
+}
+
+.interest-text {
+  flex: 2;
+}

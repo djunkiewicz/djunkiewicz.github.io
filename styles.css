@@ -80,3 +80,39 @@
 .interest-text {
   flex: 2;
 }
+
+.fixed-width-1 {
+  display: inline-block;
+  width: 138px;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.fixed-width-2 {
+  display: inline-block;
+  width: 178px;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.fixed-width-3 {
+  display: inline-block;
+  width: 150px;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.fixed-width-4 {
+  display: inline-block;
+  width: 150px;
+  text-align: left;
+}
+
+.list-header > span {
+  font-size: 16px;
+  white-space: nowrap;
+}
+
+#work-education-section li {
+  margin-bottom: 4px;
+}

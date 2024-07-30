@@ -138,3 +138,12 @@
 #my-projects .card {
   margin-bottom: 25px;
 }
+
+#my-projects .card img {
+  height: 280px;
+  object-fit: cover;
+}
+
+#my-projects .card .card-text {
+  height: 120px;
+}

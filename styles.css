@@ -67,6 +67,17 @@
   justify-content: space-between;
 }
 
+@media (width <= 1400px) {
+  #my-projects {
+    justify-content: center;
+  }
+
+  #my-projects .card {
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+}
+
 #my-photo {
   border-radius: 50%;
   border: solid 2px;
@@ -122,4 +133,8 @@
 
 #work-education-section li {
   margin-bottom: 4px;
+}
+
+#my-projects .card {
+  margin-bottom: 25px;
 }

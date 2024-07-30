@@ -59,6 +59,18 @@
   justify-content: center;
 }
 
+@media (width <= 768px) {
+  #interests-section .flex-container {
+    flex-direction: column;
+  }
+
+  #interests-section img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+}
+
 .background-creamy {
   background-color: #e9ecef;
 }
@@ -85,11 +97,21 @@
 }
 
 .interest-image {
-  flex: 1;
+  flex: 3;
 }
 
+.interest-image img{
+  height: 150px;
+  width: 260px;
+  object-fit: cover;
+  border-radius: 8% / 14%;
+  margin-left: 25px;
+}
+
+
+
 .interest-text {
-  flex: 2;
+  flex: 5;
 }
 
 .fixed-width-1 {

@@ -97,7 +97,7 @@
 }
 
 .interest-image {
-  flex: 3;
+  width: auto;
 }
 
 .interest-image img {
